@@ -1,0 +1,24 @@
+#n-main{
+    margin: 40px auto;
+    border: 1px solid red;
+    height: 50px;
+    width: 90%;
+    text-decoration: none;
+   
+}
+#n-display{
+    width: 50%;
+    display: flex;
+    margin: auto;
+   
+    justify-content: space-evenly
+   
+}
+#n-display h1{
+
+/* margin:10px 20px 0px 200px; */
+margin-top: 10px;
+font-size: 27px;
+}
+
+

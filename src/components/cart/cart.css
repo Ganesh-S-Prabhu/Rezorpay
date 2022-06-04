@@ -1,0 +1,57 @@
+#c-main{
+    margin: 50px auto;
+    border: 1px solid red;
+    width: 90%;
+   
+    
+}
+
+.c-display{
+    margin: 70px auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,28%);
+    grid-gap: 20px;
+
+}
+.c-item{
+    border: 1px solid green;
+    height: 330px;
+}
+.c-item>img{
+    width: 200px;
+    height: 200px;
+    margin:20px  auto 0px;
+}
+.c-item>h3{
+    margin-top: 0px;
+    
+    text-align: center;
+}
+.c-item>h3:nth-child(3),.c-item>h3:nth-child(4){
+    margin-top: -10px;
+    
+}
+
+#c-total{
+  
+    width: 30%;
+    
+}
+#c-total>h1{
+    /* margin-left: -20px; */
+    
+    width: 350px;
+    margin-left: 0px;
+}
+.c-button{
+    width: 250px;
+    font-size: 20px;
+    height: 50px;
+    background-color: #0063cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
